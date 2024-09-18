@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" defer src="index.js"></script>
+</head>
+<body>
+   <h1>Currency Converter</h1>
+   <p><h2>Select Currency</h2></p>
+   <form>
+      <h3><label for="from">From:</label>
+      <select id="from"></select><br><br>
+      <label for="to">To:</label>
+      <select id="to"></select><br><br>
+      <label for="amount">Amount:</label>
+      <input type="text" id="amount" /><br><br>
+      <button type="button" id="convert"><h3>Convert</h3></button>
+      <button class="reset-button" id="clear" onclick="reset()"><h3>Reset</h3></button><br>
+      <h2><p id="current-rate"></p></h2>
+   </form></h3>
+</body>
+</html>

@@ -1,0 +1,42 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: purple;
+  }
+  
+  h1 {
+  color: gold;
+  }
+  
+  #current-rate {
+  color: gold;
+  }
+  
+  body, p {
+  color: gold;
+  }
+  
+  #convert {
+  padding: 5px;
+  width: 20%;
+  background-color: gold;
+  
+  }
+  
+  #clear {
+  padding: 5px;
+  width: 20%;
+  background-color: gold;
+  }
+  
+  #from {
+  padding: 5px;
+  }
+  
+  #to {
+  padding: 5px;
+  }
+  
+  #amount {
+  padding: 5px;
+  }
